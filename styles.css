@@ -1,22 +1,25 @@
 
 body {
-    margin: 0;
-    font-family: arial, sans-serif;
-    display :flex;
-    flex-direction: column;
-
-    
+margin: 0;
+font-family: arial, sans-serif;
+display :flex;
+flex-direction: column;
+ 
 }
 
-    .torshov-image {
-    background-image: url("images/torshov.jpg");
-    background-size: cover;
-    height:300px;
-    background-position:center;
+.torshov-image {
+ background-image: url("images/torshov.jpg");
+ background-size: cover;
+ height:300px;
+ background-position:center;
+ width: 720px;
+ height: 343px;
+ margin: 0px auto;
+
     }
 
 h1 {
- background-color: #1D3557;
+background-color: #1D3557;
 width: 225px;
 height: 42px;
 border-radius: 10px;
@@ -42,26 +45,84 @@ padding: 5px 0px 5
 }
 h2 {
     
-font-weight: 700;
+font-weight: 700px;
 font-size: 24px;
 text-align: center;
 color: #1D3557;
 }
+.top {
+width: 720px;
+height: 378px;
+background-color: #F1FAEE;
+background-size: cover;
+margin: 0px auto;
+}
 .torshov-activities {
- background-color: #F1FAEE;
- width: 720px;
- height: 378;
  display:flex;
  flex-direction:row;
  justify-content:space-around;
  border-radius: 10px;
 
 }
+
 img{
 width: 100px;
 height: 99.34px;
 border-radius: 50%;
+}
+.guider {
+width: 720px;
+height: 394px;
+margin: 0px auto;
+background-color: #FFFFFF;
 
 
+
+}
+
+.image-guider {
+width: 180px;
+height: 248.67px;
+border-radius: 10px;
+
+}
+.background-guide {
+background-color: #A8DADC;
+display:flex;
+flex-direction:row;
+width: 400px;
+height: 294px;
+border-bottom: 3px solid #1D3557;
+border-radius: 10px;
+margin: 20px auto;
+padding-top: 20px ;
+padding-left: 30px;
+padding-right: 40px;
+
+ }
+
+ #h2 {
+font-weight: 700px;
+font-size: 24px;
+line-height: 100%;
+text-align: center;
+color: #1D3557;
+
+ }
+ #h3 {
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+color: #1D3557;
+
+ }
+
+#p {
+font-weight: 400px;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+color: #1D3557;
 
 }
