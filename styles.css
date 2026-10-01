@@ -4,13 +4,12 @@ margin: 0;
 font-family: arial, sans-serif;
 display :flex;
 flex-direction: column;
- 
+ text-align: center;
 }
 
 .torshov-image {
  background-image: url("images/torshov.jpg");
  background-size: cover;
- height:300px;
  background-position:center;
  width: 720px;
  height: 343px;
@@ -41,11 +40,11 @@ font-weight: 700;
 font-size: 18.72px;
 text-align: center;
 color: #FFFFFF;
-padding: 5px 0px 5
+padding: 5px 0px ;
 }
 h2 {
     
-font-weight: 700px;
+font-weight: 700p;
 font-size: 24px;
 text-align: center;
 color: #1D3557;
@@ -102,7 +101,7 @@ padding-right: 40px;
  }
 
  #h2 {
-font-weight: 700px;
+font-weight: 700;
 font-size: 24px;
 line-height: 100%;
 text-align: center;
@@ -119,7 +118,7 @@ color: #1D3557;
  }
 
 #p {
-font-weight: 400px;
+font-weight: 400;
 font-size: 16px;
 line-height: 100%;
 text-align: center;
